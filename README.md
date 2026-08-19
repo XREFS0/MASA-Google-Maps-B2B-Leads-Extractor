@@ -1,4 +1,4 @@
-# MASA Google Maps & Bing Maps B2B Leads Extractor 🚀
+# MASA Google Maps & Bing Maps B2B Leads Extractor
 
 <div align="center">
 
@@ -15,15 +15,15 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
-**MASA Google Maps B2B Leads Extractor** is a professional desktop application engineered for high-throughput business data extraction, contact mining, and B2B lead generation from Google Maps and Bing Maps. 
+**MASA Google Maps B2B Leads Extractor** is a desktop application engineered for business data extraction, contact mining, and B2B lead generation from Google Maps and Bing Maps.
 
 Designed for digital marketers, sales teams, and data analysts, it automates search queries across categories and geographic regions, captures comprehensive business profiles, and executes deep web/email mining to discover actionable B2B contacts.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <div align="center">
 
@@ -33,25 +33,25 @@ Designed for digital marketers, sales teams, and data analysts, it automates sea
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- 🗺️ **Dual Engine Scraping**: High-speed extraction from both **Google Maps** and **Bing Maps**.
-- 📧 **Deep Web & Email Mining**: Automatically traverses company websites and social profiles to extract business emails, phone numbers, and social links.
-- 🎯 **Targeted Campaign Management**:
+- **Dual Engine Scraping**: High-speed extraction from both Google Maps and Bing Maps.
+- **Deep Web & Email Mining**: Automatically traverses company websites and social profiles to extract business emails, phone numbers, and social links.
+- **Targeted Campaign Management**:
   - Custom location hierarchies (Countries, States/Regions, Cities, Zip Codes).
   - Multi-category batch extraction.
-- 💾 **Multi-Format Export**:
-  - Native **Microsoft Excel (.xlsx)** export via COM Interop.
-  - **CSV / TXT** structured formats.
-  - Direct sync with **MySQL Database**.
-- 🌐 **Proxy & Anti-Detection Support**: Built-in HTTP proxy rotation and automated browser management.
-- 🔄 **Auto-Restart & Recovery**: Fault-tolerant architecture with automated process recovery and session resume.
-- 🌍 **Multi-Language Interface**: Pre-configured support for English, French, German, Italian, and Spanish.
-- 🎨 **Modern Krypton UI**: Rich, customizable, and responsive WinForms interface powered by Krypton Toolkit.
+- **Multi-Format Export**:
+  - Native Microsoft Excel (.xlsx) export via COM Interop.
+  - CSV / TXT structured formats.
+  - Direct sync with MySQL Database.
+- **Proxy & Anti-Detection Support**: Built-in HTTP proxy rotation and automated browser management.
+- **Auto-Restart & Recovery**: Fault-tolerant architecture with automated process recovery and session resume.
+- **Multi-Language Interface**: Pre-configured support for English, French, German, Italian, and Spanish.
+- **Krypton UI**: Rich, customizable, and responsive WinForms interface powered by Krypton Toolkit.
 
 ---
 
-## 📊 Extracted Data Points
+## Extracted Data Points
 
 | Field | Description |
 | :--- | :--- |
@@ -60,7 +60,7 @@ Designed for digital marketers, sales teams, and data analysts, it automates sea
 | **Phone Number** | Local and international contact numbers |
 | **Address** | Street, City, State, Postal Code, Country |
 | **Website** | Direct official website URL |
-| **Emails** | Extracted from business listing & deep web crawling |
+| **Emails** | Extracted from business listing and deep web crawling |
 | **Social Links** | Facebook, LinkedIn, Twitter, Instagram |
 | **Rating & Reviews** | Average star rating and total review counts |
 | **Geo Coordinates** | Latitude & Longitude coordinates |
@@ -68,7 +68,7 @@ Designed for digital marketers, sales teams, and data analysts, it automates sea
 
 ---
 
-## 🏗️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 - **Language**: C# (.NET Framework 4.8)
 - **UI Framework**: Windows Forms with Krypton Suite Toolkit
@@ -78,7 +78,7 @@ Designed for digital marketers, sales teams, and data analysts, it automates sea
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -103,7 +103,7 @@ Designed for digital marketers, sales teams, and data analysts, it automates sea
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MASA-Google-Maps-B2B-Leads-Extractor/
@@ -128,12 +128,12 @@ MASA-Google-Maps-B2B-Leads-Extractor/
 
 ---
 
-## 🛡️ Disclaimer
+## Disclaimer
 
 This tool is intended for educational, research, and legitimate data aggregation purposes. Ensure compliance with Google's and Bing's Terms of Service and applicable local regulations (such as GDPR and CAN-SPAM) regarding data scraping and electronic communications.
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
