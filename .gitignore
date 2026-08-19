@@ -1,0 +1,39 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.dll
+*.pdb
+*.nupkg
+
+# Libraries and binaries
+libs/
+MASAGooGLExtractor/libs/
+ori/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# NuGet
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Logs
+*.log

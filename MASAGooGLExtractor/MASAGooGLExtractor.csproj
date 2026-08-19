@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{43BED813-E3A6-4BA0-84A8-D765C149C7A4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MASAGooGLExtractor</RootNamespace>
+    <AssemblyName>MASAGooGLExtractor</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>MASAGooGLExtractor.ico</ApplicationIcon>
+    <StartupObject>MASAGooGLExtractor.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>libs\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.Base">
+      <HintPath>libs\EO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.WebBrowser">
+      <HintPath>libs\EO.WebBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.WebBrowser.WinForm">
+      <HintPath>libs\EO.WebBrowser.WinForm.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.WebEngine">
+      <HintPath>libs\EO.WebEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data">
+      <HintPath>libs\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MASAGooGLExtractorBrowserDebugForm.cs" />
+    <Compile Include="MASAGooGLExtractorCrypto.cs" />
+    <Compile Include="MASAGooGLExtractorDBSettings.cs" />
+    <Compile Include="MASAGooGLExtractorEmailMiner.cs" />
+    <Compile Include="MASAGooGLExtractorExcelDocument.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorAutoRestartManager.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorBingMapsScraper.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorDatabase.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorDatabaseObject.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorDataBlock.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorExportManager.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorGeoData.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorGMCompanyPageScraper.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorGoogleMapsScraper.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorGooglePageScraper.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorImportDatabase.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorInputTextForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorInputTextForm.Designer.cs">
+      <DependentUpon>MASAGooGLExtractorInputTextForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorLanguages.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorLocation.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorLocationEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorLocationEditForm.Designer.cs">
+      <DependentUpon>MASAGooGLExtractorLocationEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorMainForm.Designer.cs">
+      <DependentUpon>MASAGooGLExtractorMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorPhantomJS.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorPhantomJSBing.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorProgram.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorSettings.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorSettingsForm.Designer.cs">
+      <DependentUpon>MASAGooGLExtractorSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorTask.cs" />
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorUploadCategoriesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorUploadCategoriesForm.Designer.cs">
+      <DependentUpon>MASAGooGLExtractorUploadCategoriesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorUploadLocationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorUploadLocationsForm.Designer.cs">
+      <DependentUpon>MASAGooGLExtractorUploadLocationsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MASAGooGLExtractor\MASAGooGLExtractorWebMiner.cs" />
+    <Compile Include="MASAGooGLExtractorHTTPScraper.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractorAppEvents.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractorAppEvents_Event.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractorApplication.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractorDocEvents.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractorDocEvents_Event.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractorRange.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractorSheets.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractorWorkbook.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractorWorkbookEvents.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractorWorkbookEvents_Event.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractorWorkbooks.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractorWorksheet.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractorXlSaveAsAccessMode.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractor_Application.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractor_Workbook.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\MASAGooGLExtractor_Worksheet.cs" />
+    <Compile Include="Properties\MASAGooGLExtractorAssemblyInfo.cs" />
+    <Compile Include="Properties\MASAGooGLExtractorResources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\MASAGooGLExtractorSettings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MASAGooGLExtractorProxyServer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MASAGooGLExtractor\InputTextForm.resx">
+      <DependentUpon>MASAGooGLExtractorInputTextForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASAGooGLExtractor\LocationEditForm.resx">
+      <DependentUpon>MASAGooGLExtractorLocationEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASAGooGLExtractor\MainForm.resx">
+      <DependentUpon>MASAGooGLExtractorMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASAGooGLExtractor\SettingsForm.resx">
+      <DependentUpon>MASAGooGLExtractorSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASAGooGLExtractor\UploadCategoriesForm.resx">
+      <DependentUpon>MASAGooGLExtractorUploadCategoriesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MASAGooGLExtractor\UploadLocationsForm.resx">
+      <DependentUpon>MASAGooGLExtractorUploadLocationsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MASAGooGLExtractorResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MASAGooGLExtractorSettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

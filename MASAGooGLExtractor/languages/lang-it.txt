@@ -1,0 +1,130 @@
+﻿Messages*Do you really want to exit?*
+Messages*No one working free proxy server available!*
+Messages*Do you really want to delete {0} rows from list?*
+Messages*Do you really want to delete all rows from list?*
+Messages*Total proxies {0}, checked {1}, available {2}*
+Messages*Wrong code or email. Please try again!*
+Messages*To extract unlimited data you need the Full version of MASA GooGLExtractor.. Do you want to buy the full version now?*
+Messages*Please make first the search you want and click on GET DATA only after the results appears in the page*
+Messages*No data to export. Please make first the search and then click on GET DATA*
+Messages*No data is selected to export. Please make first the selection and then click on Export*
+Messages*Processing is done!*
+Messages*Stopped by user!*
+MainForm*splitContainer*
+MainForm**
+MainForm*webBrowser*
+MainForm*panel2*
+MainForm*btnExport*Export
+MainForm*btnGetData*Get data
+MainForm*btnStop*Stop collection
+MainForm*btnSelectAll*Select all
+MainForm*btnDeleteAll*Delete all
+MainForm*btnClearSelection*Clear selection
+MainForm*btnDeleteSelected*Delete selected
+MainForm**
+MainForm*dgvResults*
+MainForm**
+MainForm**
+MainForm*panel1*
+MainForm*bnWebrowserGo*
+MainForm*tbWebbrowserUrl*
+MainForm*label1*Address:
+MainForm*btnWebbrowserStop*
+MainForm*btnWebbrowserRefresh*
+MainForm*btnWebbrowserForward*
+MainForm*btnWebbrowserBack*
+MainForm*btnBrowserHome*
+MainForm*statusStrip*statusStrip1
+MainForm**
+MainForm*menuStrip*menuStrip1
+Menu*fileToolStripMenuItem*File
+Menu*exportToolStripMenuItem*Export...
+Menu*exitToolStripMenuItem*Exit
+Menu*websitesToolStripMenuItem*Websites
+Menu*wwwpaginegialleitToolStripMenuItem*www.paginegialle.it
+Menu*wwwpagejaunesfrToolStripMenuItem*www.pagejaunes.fr
+Menu*wwwpaginasamarillasesToolStripMenuItem*www.paginasamarillas.es
+Menu*wwwgelbenseitendeToolStripMenuItem*www.gelbenseiten.de
+Menu*settingsToolStripMenuItem*Settings|AutoExport|AutoRestart
+Menu*helpToolStripMenuItem*Help
+Menu*updateToolStripMenuItem*Update
+Menu*registrationToolStripMenuItem*Registration
+Menu*aboutOnlineYellowPagesScraperToolStripMenuItem*About MASA GooGLExtractor
+Menu*buyFullVersionToolStripMenuItem*Buy Full Version
+DataGridView*category*Category
+DataGridView*business_name*Business Name
+DataGridView*address*Address
+DataGridView*city*City
+DataGridView*state*State
+DataGridView*postal_code*Postal Code
+DataGridView*country*Country
+DataGridView*phone*Phone
+DataGridView*fax*Fax
+DataGridView*website*Website
+DataGridView*email*Email
+DataGridView*map_link*Map Link
+DataGridView*details_link*Details Link
+ProxiesForm*lblInfo*Searching proxies...
+ProxiesForm*dgv*
+ProxiesForm**
+ProxiesForm**
+ProxiesForm*label1*Available proxy servers
+RegistrationForm*lblSupportLink*https://www.estrattoredati.com/contact-us.html
+RegistrationForm*label7*Note: if you have any problems with the registration code and software, please visit our 
+RegistrationForm*btnFreeTrial*Free Trial
+RegistrationForm*btnBuyNow*Buy now
+RegistrationForm*btnRegister*Register
+RegistrationForm*tbRegCode*
+RegistrationForm*tbEmail*
+RegistrationForm*label6*Registration Code:
+RegistrationForm*label5*Licensed E-mail:
+RegistrationForm*label4*- Free 1 Year updates
+RegistrationForm*label3*- Export data to Excel / CSV
+RegistrationForm*label2*Register the software to have the following benefits:
+RegistrationForm*label1*MASA GooGLExtractor
+RegistrationForm*pictureBoxAppIcon*
+SettingsForm*tabControl*
+SettingsForm*tabPage1*Data
+SettingsForm*cbLanguage*
+SettingsForm*label10*Interface language
+SettingsForm*cbExtractEmails*Extract email from website (slower app)
+SettingsForm*cbCSVEncoding*
+SettingsForm*label5*Encoding
+SettingsForm*cbCSVDelimiter*
+SettingsForm*label4*CSV file columns separator
+SettingsForm*cbExportType*
+SettingsForm*label3*File format for data export data
+SettingsForm*btnChooseExportFolder*Choose
+SettingsForm*tbExportPath*
+SettingsForm*rbAutoExport*Export results automatically to a folder
+SettingsForm*rbManualExport*Export results manually
+SettingsForm*cblExport*
+SettingsForm*label2*Columns to Export
+SettingsForm*cblShow*
+SettingsForm*label1*Threads
+SettingsForm*tabPage2*Connection
+SettingsForm*tbDelayTo*
+SettingsForm*tbDelayFrom*
+SettingsForm*label12*to
+SettingsForm*label11*Delay from
+SettingsForm*cbRandomDelay*Use random delay between requests
+SettingsForm*rbUseVPN*Use VPN to hide your IP
+SettingsForm*tbProxyAuthPassword*
+SettingsForm*tbProxyAuthUsername*
+SettingsForm*label9*Password:
+SettingsForm*label8*Username:
+SettingsForm*tbFreeProxiesList*
+SettingsForm*tbRandomProxyList*
+SettingsForm*cbAuthentification*Proxy server requires authentification
+SettingsForm*tbProxyServerPort*
+SettingsForm*label7*port:
+SettingsForm*tbProxyServerIP*
+SettingsForm*label6*Proxy server IP:
+SettingsForm*rbFreeProxiesList*Use free proxies lists (enter one source per line)
+SettingsForm*rbRundomProxyList*Use random proxy from list (line format server:port)
+SettingsForm*rbUseSingleProxy*Use single proxy
+SettingsForm*rbNoProxy*Do not use proxy servers
+SettingsForm*panel*
+SettingsForm*btnCancel*Cancel
+SettingsForm*btnOk*Ok
+SettingsForm*cdAutoStart*Auto Start
